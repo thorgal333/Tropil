@@ -4,6 +4,5 @@ php:
 branches:
   only:
     master
-before_install:
-  - travis_retry composer self-update
-  - composer install
+
+script: ./vendor/bin/phpunit tests/PrestataireTest
