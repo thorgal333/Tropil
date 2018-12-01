@@ -1,21 +1,17 @@
 {
-    "name": "vendor_name/package_name",
+    "name": "Tropil",
   "description": "This project is for practicing writing php unit tests",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Umair Anwar",
-      "email": "umair.anwar@gmail.com"
+      "name": "JFP",
+      "email": "xx@xx.com"
     }
   ],
-  "autoload": {
-    "classmap": [
-      "/src/"
-    ]
-  },
 
     "require-dev": {
+        "ext-mbstring" : "*",
         "phpunit/phpunit": "^6.5"
     }
 }
