@@ -24,7 +24,6 @@
 
 /cache.properties
 
-/composer.lock
 
 /tests/end-to-end/*.diff
 
