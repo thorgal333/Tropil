@@ -12,7 +12,8 @@
 
 
     "require-dev": {
-      "ext-mbstring" : "*",
-        "phpunit/phpunit": "^6.5"
+      "phpunit/phpunit": "^6.5",
+      "ext-mbstring" : "*"
+       
     }
   }
