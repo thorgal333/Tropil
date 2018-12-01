@@ -9,9 +9,9 @@
       "email": "xx@xx.com"
     }
   ],
+ 
 
-
-    "require-dev": {
+    "require": {
       "phpunit/phpunit": "^6.5",
       "ext-mbstring" : "*"
        
