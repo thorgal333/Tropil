@@ -10,10 +10,9 @@
     }
   ],
 
-  "require": {
-    "ext-mbstring" : "*"
-  },
+
     "require-dev": {
+      "ext-mbstring" : "*",
         "phpunit/phpunit": "^6.5"
     }
-}
+  }
