@@ -24,7 +24,6 @@
 
 /cache.properties
 
-
 /tests/end-to-end/*.diff
 
 /tests/end-to-end/*.exp
