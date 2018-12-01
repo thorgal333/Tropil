@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-require __DIR__ . "/../business/prestataire.php";
+require_once __DIR__ . "/../business/prestataire.php";
 
 use PHPUnit\Framework\TestCase;
 

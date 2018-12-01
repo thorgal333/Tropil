@@ -17,9 +17,10 @@ class amortissementDegressif extends amortissement
      */
     public function CalculAmortissement() : array
     {
-        $taux = (1 / $this->nbAnnee ) * 0.8;
+        
         
         for ($i=0; $i < $this->nbAnnee; $i++) {
+            $taux = 0.2 / ($i+1) ;
             $tabAmortissement[$i] = round($this->valeur * $taux);
         }
 

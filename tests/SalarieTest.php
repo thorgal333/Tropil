@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
-require __DIR__ . "/../business/salarie.php";
+require_once __DIR__ . "/../business/salarie.php";
 
 use PHPUnit\Framework\TestCase;
 
-final class PrestataireTest extends TestCase
+final class SalarieTest extends TestCase
 {
     public function testNom() 
     {
@@ -40,11 +40,17 @@ final class PrestataireTest extends TestCase
         $presta = new business\salarie("durant", "jean", 2000);
         $this->assertEquals(80,$presta->CalculRetraite());
     }
-    public function testMutuelle() 
+    public function testMutuelleSuperieur2000() 
     {
         $presta = new business\salarie("durant", "jean", 3000);
         $this->assertEquals(150, $presta->CalculMutuelle());
     }
+    public function testMutuellesuperieur1000() 
+    {
+        $presta = new business\salarie("durant", "jean", 1500);
+        $this->assertEquals(100, $presta->CalculMutuelle());
+    }
+    
     public function testSalaireNet() 
     {
         $presta = new business\salarie("durant", "jean", 2000);

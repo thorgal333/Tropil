@@ -51,13 +51,13 @@ class salarie
     */
     public function  CalculMutuelle(): float
     {
-        if ($this->salaire > 1000)
-        {
-            return 100;
-        }
-        else if ($this->salaire > 2000)
+        if ($this->salaire > 2000)
         {
             return 150;
+        }
+        else if ($this->salaire > 1000)
+        {
+            return 100;
         }
         else
         {
